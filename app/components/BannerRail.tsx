@@ -5,7 +5,10 @@ import Link from "next/link";
 
 export type Banner = {
   id: string;
+  /** Wide / landscape crop — shown on sm and up */
   image: string;
+  /** Portrait crop — shown on mobile. Falls back to `image` if omitted. */
+  mobileImage?: string;
   /** e.g. "/sarees", "/product/p1", "/#festive", or an external URL */
   href: string;
   alt: string;
@@ -95,9 +98,9 @@ export default function BannerRail({
       aria-roledescription="carousel"
       aria-label="Promotions"
     >
-      <div
+       <div
         ref={trackRef}
-        className="relative aspect-[16/5] w-full overflow-hidden bg-ink/5 sm:aspect-[1440/400]"
+        className="relative aspect-[4/5] w-full overflow-hidden bg-ink/5 sm:aspect-[1440/400]"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >

@@ -10,7 +10,7 @@ type Panel = {
 const panels: Panel[] = [
   {
     cta: "Shop sarees",
-    href: "/Sarees",
+    href: "/sarees",
     image: "/images/saree.jpg",
     video: "/videos/saree-loop.mp4",
   },
