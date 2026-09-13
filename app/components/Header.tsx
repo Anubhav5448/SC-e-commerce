@@ -107,10 +107,10 @@ function IconRow({
           <path d="M4.5 8h15l-1 12.5h-13Z" />
         </IconButton>
       </Link>
-      <IconButton label="Account">
+      {/* <IconButton label="Account">
         <circle cx="12" cy="8" r="3.4" />
         <path d="M4.8 20c1.3-3.6 4-5.4 7.2-5.4s5.9 1.8 7.2 5.4" />
-      </IconButton>
+      </IconButton> */}
     </div>
   );
 }

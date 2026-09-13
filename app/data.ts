@@ -313,6 +313,47 @@ export const products: Product[] = [
   },
 ];
 
+
+/* ----------------------------- BANNERS ----------------------------- */
+export type Banner = {
+  id: string;
+  image: string;
+  href: string;
+  alt: string;
+  title?: string;
+  subtitle?: string;
+  cta?: string;
+};
+
+export const banners: Banner[] = [
+  {
+    id: "b1",
+    image: "/images/banner-festive.png",
+    href: "/sarees",
+    alt: "Festive saree sale",
+    subtitle: "Puja season, 2026",
+    title: "Up to 40% off silk sarees",
+    cta: "Shop the edit",
+  },
+  {
+    id: "b2",
+    image: "/images/banner-suits.png",
+    href: "/suits",
+    alt: "Suit set collection",
+    subtitle: "New arrivals",
+    title: "Handworked suit sets, fresh off the loom",
+    cta: "Explore suits",
+  },
+  {
+    id: "b3",
+    image: "/images/banner-sale.jpg",
+    href: "/#bestsellers",
+    alt: "End of season sale",
+    title: "End of season — 3 @ 30% off",
+    cta: "Shop bestsellers",
+  },
+];
+
 /** Curated 8 for the homepage Bestsellers rail */
 export const featuredProducts = products.filter((p) => p.featured);
 
