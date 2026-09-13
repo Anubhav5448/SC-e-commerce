@@ -17,7 +17,7 @@ export default function SareesPage() {
         <CategoryGrid
           title="Sarees"
           subtitle="Handworked silks, chiffons and organzas — woven across India."
-          items={productsByCategory.sarees}
+          items={productsByCategory.arees}
         />
       </main>
       <Footer />
