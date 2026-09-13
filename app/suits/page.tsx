@@ -17,7 +17,7 @@ export default function SuitsPage() {
         <CategoryGrid
           title="Suit Sets"
           subtitle="Anarkalis, straight kurtas and festive sets — crafted for every occasion."
-          items={productsByCategory.suits}
+          items={productsByCategory.Suits}
         />
       </main>
       <Footer />

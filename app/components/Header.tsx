@@ -5,8 +5,8 @@ import Link from "next/link";
 import { useCart } from "../context/CartContext";
 
 const links: { label: string; href: string }[] = [
-  { label: "Sarees", href: "/sarees" },
-  { label: "Suit Sets", href: "/suits" },
+  { label: "Sarees", href: "/Sarees" },
+  { label: "Suit Sets", href: "/Suits" },
   { label: "Sale", href: "/#bestsellers" },
 ];
 

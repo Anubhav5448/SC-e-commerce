@@ -30,7 +30,7 @@ export default function FestiveBanner() {
           Dress for the mornings you&apos;ll photograph for years
         </h2>
         <a
-          href="/sarees"
+          href="/Sarees"
           className="relative mt-8 inline-block rounded-full bg-ivory px-8 py-3.5 text-[14.5px] font-medium text-maroon-deep transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-soft"
         >
           Shop the festive edit
