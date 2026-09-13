@@ -16,14 +16,14 @@ export const categories: Category[] = [
     slug: "sarees",
     count: "10 pieces",
     swatch: ["#8a2246", "#c69340"],
-    image: "/sarees/Banarasi Silk Saree/1.webp",
+    image: "/Sarees/Banarasi Silk Saree/1.webp",
   },
   {
     name: "Suit Sets",
     slug: "suits",
     count: "10 pieces",
     swatch: ["#1f4a44", "#c69340"],
-    image: "/suits/Embroidered Anarkali Suit/1.jpg",
+    image: "/Suits/Embroidered Anarkali Suit/1.jpg",
   },
 ];
 
