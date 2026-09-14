@@ -4,7 +4,7 @@ import CategoryGrid from "../components/CategoryGrid";
 import { productsByCategory } from "../data";
 
 export const metadata = {
-  title: "Suit Sets — Rivaayat",
+  title: "Suit Sets — Vipswapan",
 };
 
 export default function SuitsPage() {

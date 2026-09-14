@@ -93,7 +93,7 @@ export default function Header() {
             href="/"
             className="font-display text-[26px] italic tracking-tight text-ivory"
           >
-            Rivaayat
+            Vipswapan
           </Link>
 
           <nav className="hidden items-center gap-7 md:flex">
@@ -138,7 +138,7 @@ export default function Header() {
             onClick={() => setOpen(false)}
             className="font-display text-[24px] italic tracking-tight text-ivory"
           >
-            Rivaayat
+            Vipswapan
           </Link>
           <button
             onClick={() => setOpen(false)}
@@ -216,7 +216,7 @@ export default function Header() {
         </nav>
 
         <p className="border-t border-ivory/12 px-5 py-4 text-[12px] text-ivory/40">
-          © 2026 Rivaayat Clothing Co.
+          © 2026 Vipswapan Clothing Co.
         </p>
       </aside>
     </>

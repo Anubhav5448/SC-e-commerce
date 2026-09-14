@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-14 sm:px-8">
         <div className="grid gap-10 border-b border-ivory/12 pb-12 sm:grid-cols-[1.3fr_1fr_1fr_1fr]">
           <div>
-            <p className="font-display text-[24px] italic text-ivory">Rivaayat</p>
+            <p className="font-display text-[24px] italic text-ivory">Vipswapan</p>
             <p className="mt-3 max-w-xs text-[13.5px] leading-relaxed text-ivory/55">
               Get first access to new drops and restocks. One email a week,
               nothing more.
@@ -38,13 +38,13 @@ export default function Footer() {
             items={["Track order", "Returns & exchange", "Size guide", "Care guide", "Contact us"]}
           />
           <FooterCol
-            title="Rivaayat"
+            title="Vipswapan"
             items={["Our story", "Weaving partners", "Store locator", "Careers"]}
           />
         </div>
 
         <div className="flex flex-col items-center justify-between gap-4 pt-6 text-[12.5px] text-ivory/45 sm:flex-row">
-          <span>© 2026 Rivaayat Clothing Co.</span>
+          <span>© 2026 Vipswapan Clothing Co.</span>
           <div className="flex gap-5">
             <a href="#" className="hover:text-ivory">Privacy</a>
             <a href="#" className="hover:text-ivory">Terms</a>

@@ -35,7 +35,7 @@ export function buildWhatsAppOrderLink(
   const total = subtotal + shipping;
 
   const message = [
-    `*New Order — Rivaayat*`,
+    `*New Order — Vipswapan*`,
     ``,
     `*Buyer Details*`,
     `Name: ${buyer.name}`,

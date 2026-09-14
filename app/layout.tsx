@@ -3,9 +3,9 @@ import "./globals.css";
 import { CartProvider } from "./context/CartContext";
 
 export const metadata: Metadata = {
-  title: "Rivaayat — Sarees & Suit Sets",
+  title: "Vipswapan — Sarees & Suit Sets",
   description:
-    "Rivaayat is a home for handworked sarees, suit sets and lehengas — festive wear rooted in craft.",
+    "Vipswapan is a home for handworked sarees, suit sets and lehengas — festive wear rooted in craft.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
